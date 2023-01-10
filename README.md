@@ -6,7 +6,7 @@
     flyctl auth login
     flyctl auth token
     flyctl launch # fly.toml
-    flyctl secrets set MONGO_URI='mongodb+srv://root:<password>@neuefische-cluster.hts873n.mongodb.net/neuefische-fullstack-demo?retryWrites=true&w=majority'
+    flyctl secrets set MONGO_URI='db-connection-uri'
     flyctl secrets list
     # Setup GitHub Workflow
     https://fly.io/docs/app-guides/continuous-deployment-with-github-actions/
